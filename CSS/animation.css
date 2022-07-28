@@ -1,0 +1,29 @@
+@keyframes under-line {
+    from {
+        width: 0px
+    }
+
+    to {
+        width: 27%;
+    }
+}
+
+@keyframes under-line-media {
+    from {
+        width: 0px
+    }
+
+    to {
+        width: 50%;
+    }
+}
+
+@keyframes under-line2 {
+    from {
+        width: 0px
+    }
+
+    to {
+        width: 15%;
+    }
+}

@@ -1,0 +1,145 @@
+/* Start Header */
+
+@media (max-width:990px) {
+    header .logo img {
+        margin-top: 5px;
+    }
+
+    header .icon {
+        display: flex !important;
+    }
+
+    .exhibition .content2 {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    header ul {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: darksalmon;
+        color: #fff;
+        visibility: hidden;
+    }
+
+    .icon:hover+ul {
+        visibility: visible;
+        border-bottom: none;
+    }
+
+    header {
+        padding: 10px;
+    }
+
+    header ul li:hover {
+        margin-left: 5px;
+
+    }
+
+    header ul li a {
+        transition: 0s;
+        color: #fff;
+    }
+
+    header ul li {
+        width: 100%;
+        padding: 15px;
+        font-size: 22px;
+        border-bottom: 1px solid #ffd6d6;
+    }
+
+    header ul img {
+        display: none;
+    }
+
+    /* End Header */
+    .landing .text {
+        width: 90%;
+        margin: auto;
+        top: -20%;
+    }
+
+    .landing .container {
+        top: 10%;
+    }
+
+    .landing {
+        height: 120vh;
+        padding: 20px;
+    }
+
+    .landing img {
+        width: 80%;
+        height: 300px;
+        margin: auto;
+    }
+
+    /* End laning */
+
+    /* Start exhibition */
+    .exhibition .container img {
+        margin: 40px 0px;
+    }
+
+    .exhibition .container img:last-child {
+        margin: auto
+    }
+
+    .exhibition .products .content {
+        justify-content: space-evenly;
+    }
+
+    .exhibition .products .content .card {
+        margin-bottom: 50px;
+    }
+
+    .products h1::before {
+        animation: under-line-media infinite 3s;
+    }
+
+    .smart .container img {
+        width: 300px;
+        margin: 300px auto;
+    }
+
+    .smart {
+        height: 80vh;
+    }
+
+    .smart .content {
+        margin: auto;
+        min-width: 90%;
+    }
+
+    /* End exhibition */
+}
+
+@media (min-width:320px) and (max-width:480px) {
+    .landing {
+        height: 120vh;
+    }
+
+    .exhibition .container img:hover {
+        transform: scale(1.1) rotate(-14deg);
+    }
+}
+
+@media (max-width:665px) {
+    .smart .content {
+        margin: auto;
+        margin-top: -120px;
+        text-align: center;
+        padding: 10px
+    }
+.final {
+    height: 80vh;
+}
+    .smart img {
+        max-width: 95%;
+    }
+}
