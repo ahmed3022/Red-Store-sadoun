@@ -23,6 +23,8 @@
         left: 0;
         width: 100%;
         background-color: darksalmon;
+        opacity: 1;
+        z-index: 3;
         color: #fff;
         visibility: hidden;
     }
